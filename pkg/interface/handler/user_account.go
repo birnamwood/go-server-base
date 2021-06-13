@@ -1,8 +1,8 @@
 package handler
 
 import (
-	"go-vue-next-server/pkg/domain/json/structure"
-	"go-vue-next-server/pkg/usecase"
+	"github.com/birnamwood/go-server-base/pkg/domain/json/structure"
+	"github.com/birnamwood/go-server-base/pkg/usecase"
 	"net/http"
 
 	"github.com/labstack/echo/v4"

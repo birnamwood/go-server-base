@@ -10,7 +10,7 @@ server:
   host: api
   port: 5002
 schema:
-- name: go-vue-next-server
+- name: github.com/birnamwood/go-server-base
   path: .
   commands:
     fmt:
@@ -20,7 +20,7 @@ schema:
       - -w
     install:
       status: true
-      method: go build -o server ./cmd/go-vue-next-server/main.go
+      method: go build -o server ./cmd/github.com/birnamwood/go-server-base/main.go
     run:
       status: true
       method: ./server

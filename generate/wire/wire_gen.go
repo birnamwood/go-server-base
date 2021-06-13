@@ -6,9 +6,9 @@
 package wire
 
 import (
-	"go-vue-next-server/pkg/infrastructure/store"
-	"go-vue-next-server/pkg/interface/handler"
-	"go-vue-next-server/pkg/usecase"
+	"github.com/birnamwood/go-server-base/pkg/infrastructure/store"
+	"github.com/birnamwood/go-server-base/pkg/interface/handler"
+	"github.com/birnamwood/go-server-base/pkg/usecase"
 	"gorm.io/gorm"
 )
 

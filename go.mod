@@ -1,4 +1,4 @@
-module go-vue-next-server
+module github.com/birnamwood/go-server-base
 
 go 1.16
 

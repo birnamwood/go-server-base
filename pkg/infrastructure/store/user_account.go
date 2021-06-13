@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"runtime/debug"
 
-	"go-vue-next-server/initialize/alert"
-	"go-vue-next-server/pkg/domain/model"
-	"go-vue-next-server/pkg/domain/repository"
-	"go-vue-next-server/pkg/general/myerr"
+	"github.com/birnamwood/go-server-base/initialize/alert"
+	"github.com/birnamwood/go-server-base/pkg/domain/model"
+	"github.com/birnamwood/go-server-base/pkg/domain/repository"
+	"github.com/birnamwood/go-server-base/pkg/general/myerr"
 
 	"github.com/pkg/errors"
 	"gorm.io/gorm"

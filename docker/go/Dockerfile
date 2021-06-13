@@ -1,10 +1,10 @@
 FROM golang:1.16
 
 # コンテナ側作業ディレクトリ
-WORKDIR /go/src/go-vue-next-server
+WORKDIR /go/src/github.com/birnamwood/go-server-base
 
 # プロジェクトのソースをコンテナに追加
-COPY ./ /go/src/go-vue-next-server
+COPY ./ /go/src/github.com/birnamwood/go-server-base
 
 # 日本語セット
 RUN apt-get update \

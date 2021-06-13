@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"go-vue-next-server/pkg/domain/model"
+	"github.com/birnamwood/go-server-base/pkg/domain/model"
 )
 
 //UserAccountRepository text

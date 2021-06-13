@@ -1,8 +1,8 @@
 package usecase
 
 import (
-	"go-vue-next-server/pkg/domain/model"
-	"go-vue-next-server/pkg/domain/repository"
+	"github.com/birnamwood/go-server-base/pkg/domain/model"
+	"github.com/birnamwood/go-server-base/pkg/domain/repository"
 )
 
 //UserAccountUsecase interface

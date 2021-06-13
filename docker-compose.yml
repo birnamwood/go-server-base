@@ -2,7 +2,7 @@ version: '3'
 
 services:
   postgres:
-    container_name: go-vue-next-postgres
+    container_name: postgres
     ports:
       - 5432:5432
     build:
@@ -14,7 +14,7 @@ services:
       - POSTGRES_DB=db
 
   api:
-    container_name: go-vue-next-api
+    container_name: api
     ports:
       - 8000:8000
       - 5002:5002
@@ -27,7 +27,7 @@ services:
       - GOPATH=/go
     volumes:
       # ホストOS：コンテナ側
-      - ./:/go/src/go-vue-next-server/
+      - ./:/go/src/github.com/birnamwood/go-server-base/
     command: >
       bash -c "go generate generate/generate.go &&
       golangci-lint run &&

@@ -2,7 +2,7 @@ package database
 
 //
 import (
-	"go-vue-next-server/initialize/config"
+	"github.com/birnamwood/go-server-base/initialize/config"
 	"log"
 	"os"
 	"time"

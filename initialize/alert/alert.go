@@ -3,7 +3,7 @@ package alert
 import (
 	"bytes"
 	"encoding/base64"
-	"go-vue-next-server/initialize/config"
+	"github.com/birnamwood/go-server-base/initialize/config"
 	"net/smtp"
 
 	"go.uber.org/zap"

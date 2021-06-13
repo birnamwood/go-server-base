@@ -4,7 +4,7 @@ import (
 	"os"
 	"time"
 
-	"go-vue-next-server/initialize/config"
+	"github.com/birnamwood/go-server-base/initialize/config"
 
 	rotatelogs "github.com/lestrrat-go/file-rotatelogs"
 	"go.uber.org/zap"

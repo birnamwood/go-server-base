@@ -4,10 +4,10 @@ package main
 
 import (
 	"flag"
-	"go-vue-next-server/initialize/alert"
-	"go-vue-next-server/initialize/config"
-	"go-vue-next-server/initialize/database"
-	"go-vue-next-server/initialize/logger"
+	"github.com/birnamwood/go-server-base/initialize/alert"
+	"github.com/birnamwood/go-server-base/initialize/config"
+	"github.com/birnamwood/go-server-base/initialize/database"
+	"github.com/birnamwood/go-server-base/initialize/logger"
 	"os"
 	"os/signal"
 	"syscall"

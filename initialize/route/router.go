@@ -9,9 +9,9 @@ import (
 	"github.com/facebookgo/grace/gracehttp"
 	rotatelogs "github.com/lestrrat-go/file-rotatelogs"
 
-	"go-vue-next-server/generate/wire"
-	"go-vue-next-server/initialize/config"
-	"go-vue-next-server/initialize/database"
+	"github.com/birnamwood/go-server-base/generate/wire"
+	"github.com/birnamwood/go-server-base/initialize/config"
+	"github.com/birnamwood/go-server-base/initialize/database"
 
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"

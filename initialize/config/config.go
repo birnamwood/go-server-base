@@ -8,7 +8,7 @@ import (
 	"github.com/spf13/viper"
 
 	//statik バイナリ化したassetファイルのPATH
-	_ "go-vue-next-server/generate/statik"
+	_ "github.com/birnamwood/go-server-base/generate/statik"
 )
 
 var c *viper.Viper
