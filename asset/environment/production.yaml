@@ -1,7 +1,7 @@
 environment: local
 
 server:
-  port: 8000
+  port: 8001
 
 db:
   # Dockerを使う場合はアドレスではなくコンテナ名を指定する
